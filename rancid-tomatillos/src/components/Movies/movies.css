@@ -1,0 +1,41 @@
+.movie {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    opacity: .6;   
+    color: #D90368;
+}
+
+.movie:hover, .movie:focus {
+    cursor: pointer;
+    transform: rotate(2deg);
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+
+.title {
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.footer {
+    margin-top:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.rating {
+    color: #FFD400;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.releaseDate {
+    color: #541388;
+    font-weight: bold;
+}
