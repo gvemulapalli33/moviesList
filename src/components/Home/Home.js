@@ -1,6 +1,5 @@
 import React, {useContext} from "react";
 import "./Home.css";
-import {Link} from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import MoviesList from '../../components/MoviesList/moviesList';
 import { movieContext } from "../../context/movieContext";
