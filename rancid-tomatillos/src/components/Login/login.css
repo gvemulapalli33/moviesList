@@ -1,0 +1,42 @@
+.formContainer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr minmax(200px, 300px) 1fr;
+    grid-template-rows: 200px minmax(200px, 300px) 200px;
+}
+
+.form {
+    grid-column: 2/3;
+    grid-row:2/3;
+    height: 100%;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 50px 20px 10px 30px 10px 20px 10px 30px 30px 30px 50px;
+}
+
+header {
+    grid-column: 2/3; 
+    grid-row:1/1;
+}
+
+.form label:first-child {
+    grid-row: 2/2;
+}
+
+#email {
+    grid-row: 4/4;
+}
+
+.form label:last-of-type {
+    grid-row: 6/6;
+}
+
+#password {
+    grid-row: 8/8;
+}
+
+.login {
+    grid-row: 10/10;
+}

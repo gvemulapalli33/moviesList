@@ -1,0 +1,14 @@
+.App {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .header {
+    padding: 1.5rem;
+    color: #D90368;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
