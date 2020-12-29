@@ -3,7 +3,7 @@
 Link to published site: https://gvemulapalli33.github.io/moviesList/
 
 ## Movies List
-![movies screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/moviesList.png)
+![movies screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/movieList.png)
 
 ## Movie Details
 ![movieDetails screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/details.png)
