@@ -1,27 +1,26 @@
-# TeamBook
+# MoviesList
 
-Link to published site: https://gvemulapalli33.github.io/TeamBook/
+Link to published site: https://gvemulapalli33.github.io/moviesList/
 
-## All Team Members
-![All members screenshot](https://raw.github.com/gvemulapalli33/TeamBook/master/AllMembers.png)
+## Movies List
+![movies screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/moviesList.png)
 
-## Add New Team Member
-![All members screenshot](https://raw.github.com/gvemulapalli33/TeamBook/master/newMember.png)
+## Movie Details
+![movieDetails screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/details.png)
 
-## Delete Team Member
-![All members screenshot](https://raw.github.com/gvemulapalli33/TeamBook/master/profile.png)
+## Mobile Layout
+![movies screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/mobileList.png)
+![movieDetails screenshot](https://raw.github.com/gvemulapalli33/moviesList/master/mobileDetails.png)
 
 ### Features
  1. This application was built with `create-react-app`.
- 2. User will see `all team members view` as initial screen.
- 3. User can click on `add team member` to add new Team member
- 4. All Team members information is stored in local Storage.
- 5. User can click on `delete icon` on the card and delete the member.
+ 2. User can see `movies list` on initial screen.
+ 3. User can click on interested movie to see `movie details`
+ 5. User can click on `back to movies list` on details page to come back to initial screen.
 
 ### Technologies Used
 1. React (Hooks)
 2. ContextAPI
-3. LocalStorage
 4. CSS Grid
 
  ### Set Up
