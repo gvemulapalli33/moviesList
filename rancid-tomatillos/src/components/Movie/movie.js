@@ -5,24 +5,15 @@ import {Link} from "react-router-dom";
 export default function Movie({poster, title, release, rating, id, backdrop}) {
     const bgStyle = {
         backgroundImage: `url(${poster})`,
-        backgroundSize: `cover`,
-        filter: `blur(2px)`,
-        height: `100%`
+        backgroundSize: `cover`
     }
     return (
         <Link to={`/movies/${id}`} className="link">
-            <article style={bgStyle}></article>
-            <article className="movie">
+            <article className="movie" style={bgStyle}>
                 <h4 className="title">{title}</h4>
                 <footer className="footer">
-                    <div>
-                        <p>Release Date:</p>
-                        <p className="releaseDate">{release}</p>
-                    </div>
-                    <div>
-                        <p>Rating:</p>
-                        <p className="rating">{rating.toFixed(1)}</p>
-                    </div>
+                    <p className="releaseDate"><span className="gap">📆</span> {release}</p>
+                    <p className="rating"><span className="gap">⭐</span> {rating.toFixed(1)}</p>
                 </footer>
             </article>
         </Link>

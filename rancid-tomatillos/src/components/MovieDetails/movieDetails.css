@@ -1,10 +1,16 @@
 .backLink {
-    padding: .5rem;
+    color: #D90368;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.backLink:hover, .backLink:focus {
+    text-decoration: underline;
 }
 
 .container {
-    margin: 1rem;
-    height: 100vh;
+    margin: 1em;
 }
 
 .detailsTitle {
@@ -20,58 +26,100 @@
     flex-direction: column;
     align-items: center;
     background-size:cover;
+    height: 100%;
 }
 
 ul {
     margin: 0;
     padding: 0;
-    display: flex;
-}
-
-ul li {
-    margin: 1rem 1rem 1rem 0;
 }
 
 .movieInfo {
-    display: grid;
     color: #D90368;
     box-shadow: 2px 1px 10px #541388;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    border-radius: 10px;
+    overflow-y: scroll;
 }
 
 .alignContent {
-    display: flex;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.alignContent p {
+    margin-top: .5em;
 }
 
 .alignContent p:first-child {
-    width: 45%;
-    text-align: end;
+    text-decoration: underline;
+    text-decoration-color: #D90368;
+    text-decoration-thickness: 3px;
+}
+
+.overview {
+    padding: .4em;
+}
+
+.tagLine {
+    color: #6D326D;
+}
+
+.budget {
+    color: #EA7317;
+}
+.revenue {
+    color: lime;
+}
+
+.release {
+    color: #FFDC5E;
+}
+
+.runtime {  
+   color: #3F88C5; 
+}
+
+.ratingDetails {
+   color: #04E762;
+}
+
+.genres {
+   color: #461220;
+}
+
+.detail .videolinks a {
+    color: #003F91;
+    display: block;
+    padding-bottom: .5em;
 }
 
 .detail {
-    width: 50%;
-    margin-left: auto;
-    padding-right: 1em;
+   margin-top: 0;
+   margin-bottom: 0.2em;
 }
 
 .detail li {
     list-style: none;
+    margin: 0;
+    max-width: 100%;
 }
 
 .detail li a {
+    text-align: center;
     text-decoration: none;
     color: #D90368;
 }
 
 @media screen and (max-width: 650px) {
-
-    .detailsTitle {
-        padding-top: 0;
-    }
-
-    .alignContent p:first-child {
-        text-align: left;
-        margin-left: 1em;
+    .movieInfo {
+        width: 97%;
+        background-color: rgba(255, 255, 255, 0.7);
     }
 }

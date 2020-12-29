@@ -1,7 +1,7 @@
 .App {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    margin: 1.5em;
   }
   
   .header {
@@ -9,6 +9,5 @@
     color: #D90368;
     font-size: 2rem;
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
   }

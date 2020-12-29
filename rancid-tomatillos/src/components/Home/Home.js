@@ -16,7 +16,6 @@ export default function Home() {
         <div className="App">
             <header className="header">
                 Movies List
-                <Link to="/login">Login</Link>
             </header>
             {loading && <h2>Loading...</h2>}
             {error && <h2>Error Loading Page, Try Reloading the Page</h2>} 
