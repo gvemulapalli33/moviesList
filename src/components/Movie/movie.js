@@ -1,8 +1,9 @@
 import React from "react";
 import "./movie.css";
 import {Link} from "react-router-dom";
+import {PropTypes} from "prop-types";
 
-export default function Movie({poster, title, release, rating, id, backdrop}) {
+function Movie({poster, title, release, rating, id}) {
     const bgStyle = {
         backgroundImage: `url(${poster})`,
         backgroundSize: `cover`
@@ -19,3 +20,13 @@ export default function Movie({poster, title, release, rating, id, backdrop}) {
         </Link>
     );
 }
+
+Movie.propTypes = {
+    id: PropTypes.string.isRequired,
+    poster: PropTypes.string,
+    title: PropTypes.string, 
+    release: PropTypes.string, 
+    rating: PropTypes.string
+};
+
+export default Movie;
