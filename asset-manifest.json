@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/moviesList/static/css/main.10cc49bc.chunk.css",
-    "main.js": "/moviesList/static/js/main.d279a263.chunk.js",
-    "main.js.map": "/moviesList/static/js/main.d279a263.chunk.js.map",
-    "runtime~main.js": "/moviesList/static/js/runtime~main.1d5da68b.js",
-    "runtime~main.js.map": "/moviesList/static/js/runtime~main.1d5da68b.js.map",
-    "static/js/2.2d4e8886.chunk.js": "/moviesList/static/js/2.2d4e8886.chunk.js",
-    "static/js/2.2d4e8886.chunk.js.map": "/moviesList/static/js/2.2d4e8886.chunk.js.map",
-    "static/js/3.4f686063.chunk.js": "/moviesList/static/js/3.4f686063.chunk.js",
-    "static/js/3.4f686063.chunk.js.map": "/moviesList/static/js/3.4f686063.chunk.js.map",
-    "index.html": "/moviesList/index.html",
-    "precache-manifest.7b312a8c0ba5ff59c0f5d52b2efe565d.js": "/moviesList/precache-manifest.7b312a8c0ba5ff59c0f5d52b2efe565d.js",
-    "service-worker.js": "/moviesList/service-worker.js",
-    "static/css/main.10cc49bc.chunk.css.map": "/moviesList/static/css/main.10cc49bc.chunk.css.map"
+    "main.css": "//gvemulapalli33.github.io/moviesList/static/css/main.10cc49bc.chunk.css",
+    "main.js": "//gvemulapalli33.github.io/moviesList/static/js/main.d279a263.chunk.js",
+    "main.js.map": "//gvemulapalli33.github.io/moviesList/static/js/main.d279a263.chunk.js.map",
+    "runtime~main.js": "//gvemulapalli33.github.io/moviesList/static/js/runtime~main.f304e4d5.js",
+    "runtime~main.js.map": "//gvemulapalli33.github.io/moviesList/static/js/runtime~main.f304e4d5.js.map",
+    "static/js/2.2d4e8886.chunk.js": "//gvemulapalli33.github.io/moviesList/static/js/2.2d4e8886.chunk.js",
+    "static/js/2.2d4e8886.chunk.js.map": "//gvemulapalli33.github.io/moviesList/static/js/2.2d4e8886.chunk.js.map",
+    "static/js/3.4f686063.chunk.js": "//gvemulapalli33.github.io/moviesList/static/js/3.4f686063.chunk.js",
+    "static/js/3.4f686063.chunk.js.map": "//gvemulapalli33.github.io/moviesList/static/js/3.4f686063.chunk.js.map",
+    "index.html": "//gvemulapalli33.github.io/moviesList/index.html",
+    "precache-manifest.52112d858357d540d6fad46684671525.js": "//gvemulapalli33.github.io/moviesList/precache-manifest.52112d858357d540d6fad46684671525.js",
+    "service-worker.js": "//gvemulapalli33.github.io/moviesList/service-worker.js",
+    "static/css/main.10cc49bc.chunk.css.map": "//gvemulapalli33.github.io/moviesList/static/css/main.10cc49bc.chunk.css.map"
   }
 }
