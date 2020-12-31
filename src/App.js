@@ -10,7 +10,7 @@ import {MovieContextProvider} from "./context/movieContext";
 function App() {
   return (
     <MovieContextProvider>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
           <Switch>
             <Route exact path="/">
               <Home/>
